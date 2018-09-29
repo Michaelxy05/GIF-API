@@ -1,0 +1,18 @@
+header {
+    background-image: url("../images/theoffice_header.jpg");
+    color: rgb(26, 41, 250);
+     background-position: center;
+	background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900px;
+    height: 200px;
+}
+
+.btn, div, form, input {
+      margin: 5px;
+}
+
+form, #gifs-view {
+    font-family: 'Roboto Slab', serif;
+}
+

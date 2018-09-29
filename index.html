@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Google Font Link -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <title>Giphy API</title>
+
+</head>
+
+<audio id="audio" src="assets/audio/The Office Theme Song.mp3" type="audio/mp3"></audio>
+
+<body>
+
+        <div class="container">
+            <header>
+                <h1 style="font-weight:bold"> <!--Giphy API--> </h1>
+            </header>
+            
+                <!-- Rendered Buttons will get Dumped Here  -->
+                <div id="buttons-view"></div>
+            
+                <form id="gif-form">
+                  <label for="gif-input">Add A New Gif Here:</label>
+                  <input type="text" id="gif-input">
+                  <br>
+            
+                  <!-- Button triggers new movie to be added -->
+                  <input id="add-gif" type="submit" value="Add Gif">
+                </form>
+            
+                <!-- Movies will Get Dumped Here -->
+                <div id="gifs-view"></div>
+
+
+    <!-- Jquery Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- JS Link -->
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

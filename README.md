@@ -1,1 +1,1 @@
-# GIF-API
+This is the Giphy API app.
